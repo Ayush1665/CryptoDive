@@ -79,7 +79,7 @@ export default function Footer() {
         <div className="mt-10 pt-5 border-t border-white/20 flex flex-col sm:flex-row items-center justify-between text-center sm:text-left">
           
           <p className="text-white opacity-75 text-base mb-4 sm:mb-0">
-            © {new Date().getFullYear()} CryptoDive. All rights reserved.
+            © {new Date().getFullYear()} CryptoHub. All rights reserved.
           </p>
 
          

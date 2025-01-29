@@ -13,7 +13,7 @@ export default function Navbar() {
           <div className="flex-shrink-0">
             <Link to="/" className="text-[28px] font-extrabold text-[#00FFA0]">
               Crypto
-              <span className="text-[#FFFFFF]">Dive</span>
+              <span className="text-[#FFFFFF]">Hub</span>
             </Link>
           </div>
 

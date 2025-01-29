@@ -114,20 +114,20 @@ export default function Hero() {
   return (
     <section className="relative pt-32 pb-20 overflow-hidden">
     
+    <div
+  className="absolute w-[60px] h-[60px] left-[150px] top-[120px] bg-[rgba(254,231,21,0.1)] rounded-full bg-center bg-no-repeat bg-contain animate-coin"
+  style={{ backgroundImage: `url(${Coin1})`, backgroundSize: "65%" }}
+/>
       <div
-        className="absolute w-[60px] h-[60px] left-[150px] top-[120px] bg-[rgba(254,231,21,0.1)] rounded-full bg-center bg-no-repeat bg-contain"
-        style={{ backgroundImage: `url(${Coin1})`, backgroundSize: "65%" }}
-      />
-      <div
-        className="absolute w-[55.62px] h-[55.62px] left-[238px] top-[394px] bg-[rgba(90,40,176,0.1)] rounded-full bg-center bg-no-repeat bg-contain"
+        className="absolute w-[55.62px] h-[55.62px] left-[238px] top-[394px] bg-[rgba(90,40,176,0.1)] rounded-full bg-center bg-no-repeat bg-contain animate-bounce"
         style={{ backgroundImage: `url(${Coin2})`, backgroundSize: "70%" }}
       />
       <div
-        className="absolute w-[68.09px] h-[68.09px] right-[153px] top-[145px] bg-[rgba(204,49,61,0.1)] rounded-full bg-center bg-no-repeat bg-contain"
+        className="absolute w-[68.09px] h-[68.09px] right-[153px] top-[145px] bg-[rgba(204,49,61,0.1)] rounded-full bg-center bg-no-repeat bg-contain animate-pulse"
         style={{ backgroundImage: `url(${Coin3})`, backgroundSize: "60%" }}
       />
       <div
-        className="absolute w-[57.67px] h-[57.67px] right-[237px] top-[428px] bg-[rgba(51,135,90,0.1)] rounded-full bg-center bg-no-repeat bg-contain"
+        className="absolute w-[57.67px] h-[57.67px] right-[237px] top-[428px] bg-[rgba(51,135,90,0.1)] rounded-full bg-center bg-no-repeat bg-contain animate-spin"
         style={{ backgroundImage: `url(${Coin4})`, backgroundSize: "70%" }}
       />
 
